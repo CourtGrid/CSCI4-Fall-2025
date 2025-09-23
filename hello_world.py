@@ -14,7 +14,12 @@ hi=list(range(1,11))
 
 print(hi)
 
-import array as eep
+import array as boop
 
-eep.array('b', hi)
+a = boop.array('l', [1, 2, 3, 4, 5])
+    #Typecode---^     #list-^
 
+
+print(a.pop())
+#array doesn't have a proper way to print
+#pop will only show the LAST thing in the list
