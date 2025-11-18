@@ -12,6 +12,9 @@ def pop(stack):
 
 
 print(stack)
+print(pop(stack))
+print(pop(stack))
 
-print(pop(stack))
-print(pop(stack))
+
+
+
