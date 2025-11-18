@@ -19,4 +19,5 @@ def evaluate():
 
 print(evaluate())
 # I kept forgetting to add the parenthesis after evaluate so I spent wayyy too long trying to figure out how to get it to print. 
-
+# I am assuming that you were supposed to have the values built into the code, and depending on what the operation was decide how it is supposed to be calculated.
+# I think I am going to have another file within the calculator folder of me trying to do it right.
