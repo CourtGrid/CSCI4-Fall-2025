@@ -1,12 +1,11 @@
-# The distance formula is 
-import math
+
 x = -1
 y = 1
 q = -1
 p = -1
 
-point1 = (x,y)
-point2 = (q,p)
+point1 = [x,y]
+point2 = [q,p]
 
 def euclid():
    
@@ -20,7 +19,7 @@ def euclid():
 
     d = a+b
 
-    distance = math.sqrt(d)
+    distance = d**(1/2)
     return distance
 
 print(euclid())
